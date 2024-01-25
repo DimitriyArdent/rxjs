@@ -11,3 +11,69 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.nav{
+  height: 50px;
+  background: bisque;
+}
+.home{
+  height: 100%;
+  width: 100%;
+  background-color: brown;
+}
+
+.zone{
+  height: 1000px;
+  width: 100%;
+  background-color: rgb(123, 231, 56);
+}
+
+
+.cart{
+  height: 1000px;
+  width: 100%;
+  background-color: rgb(93, 172, 214);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.text{
+  background-color: beige;
+  padding: 5px;
+}
+
+.links{
+  display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background: white;
+    border: 3px solid blue;
+    font-size: larger;
+    font-family: monospace;
+}
+.images{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+img{
+  width: 400px;
+  height: 300px;
+}
+
+label{
+  padding: 10px;
+  background: wheat;
+  border-radius: 5px;
+  border: 3px solid white;
+  margin: 5px;
+}
+
+form{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
